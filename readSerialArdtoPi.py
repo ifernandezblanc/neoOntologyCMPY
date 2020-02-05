@@ -32,21 +32,21 @@ def neoOntJSON(gearID, value):
         "ontClass": "http://138.250.108.1:3003/api/files/owl/diagont#State",
         "ontProperties": [
             {
-                "ontName": "http://138.250.108.1:3003/api/files/owl/diagont#hasMeasureValue",
+                "ontName": "http://138.250.108.1:3003/api/files/owl/diagont#hasStateValue",
                 "ontValue": valueString,
                 "ontDomain": "http://138.250.108.1:3003/api/files/owl/diagont#State",
                 "ontRange": "http://www.w3.org/2001/XMLSchema#double",
                 "ontType": "http://www.w3.org/2002/07/owl#DatatypeProperty"
             },
             {
-                "ontName": "http://138.250.108.1:3003/api/files/owl/diagont#hasMeasureDate",
+                "ontName": "http://138.250.108.1:3003/api/files/owl/diagont#hasStateDate",
                 "ontValue": dateString,
                 "ontDomain": "http://138.250.108.1:3003/api/files/owl/diagont#State",
                 "ontRange": "http://www.w3.org/2001/XMLSchema#dateTime",
                 "ontType": "http://www.w3.org/2002/07/owl#DatatypeProperty"
             },
             {
-                "ontName": "http://138.250.108.1:3003/api/files/owl/diagont#hasMeasureUnit",
+                "ontName": "http://138.250.108.1:3003/api/files/owl/diagont#hasStateUnit",
                 "ontValue": "http://138.250.108.1:3003/api/files/owl/diagont#hertz",
                 "ontDomain": "http://138.250.108.1:3003/api/files/owl/diagont#State",
                 "ontRange": "http://138.250.108.1:3003/api/files/owl/diagont#Unit",
